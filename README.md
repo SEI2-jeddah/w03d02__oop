@@ -245,18 +245,18 @@ Unlike object notation, you do not need to use commas when separating class meth
 ### Another Example to Try
 
 ```js
-class Animals {
+class Animal {
   constructor(type, age, sound) {
     this.type = type;
     this.age = age;
     this.sound = sound;
   }
   getOlder() {
-    this.age = this.age + 1;
+    this.age += 1;
     console.log(this.age);
   }
   makeSound() {
-    return this.sound + "! Hello, I'm a " + this.species + ". And I'm " + this.age + " years old.";
+    return `${this.sound}! Hello, I'm a ${this.type}. And I'm ${this.age} years old.`;
   }
 }
 ```
