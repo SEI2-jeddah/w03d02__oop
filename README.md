@@ -322,7 +322,7 @@ Create a "getter" and "setter" methods for retrieving and updating `artistName`,
 - What is `new `?
 - How are the last two related?
 
-## Bonus Exercise / Homework: [Geometry](https://github.com/wdi-infinity/js_geometry)
+## Bonus Exercise / Homework: [Geometry](https://github.com/ship-of-the-desert/js_geometry)
 
 ## Additional Reading
 
